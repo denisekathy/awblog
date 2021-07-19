@@ -13,6 +13,19 @@ export default function Header(){
             School
         </Link>
         &nbsp; | &nbsp;
+        <Link to="/lifestyle">
+           Lifestyle
+        </Link>
+        &nbsp; | &nbsp;
+      
+        <Link to="/health">
+           Health
+        </Link>
+        &nbsp; | &nbsp;
+        <Link to="/love">
+          Love
+        </Link>
+        &nbsp; | &nbsp;
         <Link to="/career">
             Career
         </Link>

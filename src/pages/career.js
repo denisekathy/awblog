@@ -5,6 +5,7 @@ export default function Career(){
     return(
         <>
        
+        <Header />
         <main>Careers pagesssss </main>
         </>
     )

@@ -2,12 +2,12 @@ import * as React from "react"
 import Header from "../components/header"
 
 
-export default function DearAuntyWahala(){
+export default function Love(){
     return(
        
     <>
-        <Header />
-        <main>Dear Aunty Wahala </main>
+    <Header /> 
+        <main>Love that about you</main>
         </>
        
     )
