@@ -1,6 +1,7 @@
 import * as React from "react"
 import Card from "../components/CardElements/Card"
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 
 
@@ -31,13 +32,16 @@ export default function IndexPage(){
   </div>
 </div>
 
-<div className="py-40 bg-white-200">
+<div className="py-400 bg-white-200">
   <Card />
+  <hr/>
   <Card />
 </div>
 
-   <hr/>
-   <div className="py-40 bg-yellow-100"> Hello Moto!</div>
+ 
+  
+   <Footer />
+   
     </>
   )
   }
