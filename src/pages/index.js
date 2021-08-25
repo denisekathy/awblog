@@ -1,4 +1,5 @@
 import * as React from "react"
+import Card from "../components/CardElements/Card"
 import Header from "../components/header"
 
 
@@ -13,7 +14,8 @@ export default function IndexPage(){
    <hr/>
     <Header />
     <hr/>
-    <div className="py-40 bg-red-200" >
+    {/* controls the red box use this to change the color  */}
+    <div className="py-40 bg-red-300" >
 
   <div class="container mx-auto px-6">
     <h2 class="text-4xl font-bold mb-2 text-white">
@@ -28,7 +30,14 @@ export default function IndexPage(){
     </button>
   </div>
 </div>
+
+<div className="py-40 bg-white-200">
+  <Card />
+  <Card />
+</div>
+
    <hr/>
+   <div className="py-40 bg-yellow-100"> Hello Moto!</div>
     </>
   )
   }
